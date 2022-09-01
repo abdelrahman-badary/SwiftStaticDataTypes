@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func navigateToDataVC(_ sender: Any) {
+        let vc = DataViewController()
+        self.present(vc, animated: true)
+    }
+    
 }
 
